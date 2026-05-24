@@ -4,7 +4,7 @@
 
 ![React](https://img.shields.io/badge/Frontend-React-blue?style=for-the-badge&logo=react)
 ![NodeJS](https://img.shields.io/badge/Backend-Node.js-green?style=for-the-badge&logo=node.js)
-![MySQL](https://img.shields.io/badge/Database-MySQL-orange?style=for-the-badge&logo=mysql)
+![MySQL](https://img.shields.io/badge/Database-MariaDB-blue?style=for-the-badge&logo=mysql)
 ![JWT](https://img.shields.io/badge/Auth-JWT-red?style=for-the-badge)
 ![AI](https://img.shields.io/badge/AI-Gemini-purple?style=for-the-badge)
 
