@@ -100,7 +100,7 @@ Track expenses, analyze spending, visualize trends, export reports, and interact
 - bcryptjs
 
 ## Database
-- MySQL / MariaDB
+- MariaDB
 
 ## AI Integration
 - Google Gemini API
@@ -113,33 +113,87 @@ Track expenses, analyze spending, visualize trends, export reports, and interact
 fintrack-ai/
 │
 ├── backend/
+│   │
 │   ├── config/
+│   │   └── db.js
+│   │
 │   ├── controllers/
+│   │   ├── ai.controller.js
+│   │   ├── analytics.controller.js
+│   │   ├── auth.controller.js
+│   │   └── transaction.controller.js
+│   │
 │   ├── middleware/
-│   ├── node_modules/
+│   │   └── auth.middleware.js
+│   │
 │   ├── routes/
+│   │   ├── ai.routes.js
+│   │   ├── analytics.routes.js
+│   │   ├── auth.routes.js
+│   │   └── transaction.routes.js
+│   │
 │   ├── services/
-│   ├── .env
-│   ├── package-lock.json
+│   │   └── openai.service.js
+│   │
 │   ├── package.json
 │   └── server.js
-│ 
+│
+│
 ├── frontend/
-│   ├── node_modules/
-│   └── public/
+│   │
+│   ├── public/
+│   │   ├── favicon.svg
+│   │   └── icons.svg
+│   │
 │   ├── src/
+│   │   │
 │   │   ├── assets/
+│   │   │   ├── hero.png
+│   │   │   ├── react.svg
+│   │   │   └── vite.svg
+│   │   │
 │   │   ├── components/
-│   │   ├── App.css
+│   │   │   ├── AIChat.jsx
+│   │   │   ├── AIInsights.jsx
+│   │   │   ├── AddTransaction.jsx
+│   │   │   ├── AdvancedCharts.jsx
+│   │   │   ├── BudgetCard.jsx
+│   │   │   ├── Charts.jsx
+│   │   │   ├── ExportExcel.jsx
+│   │   │   ├── ExportPDF.jsx
+│   │   │   ├── FinancialInsights.jsx
+│   │   │   ├── RecentActivity.jsx
+│   │   │   ├── Sidebar.jsx
+│   │   │   ├── ThemeToggle.jsx
+│   │   │   └── TransactionList.jsx
+│   │   │
+│   │   ├── pages/
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── Login.jsx
+│   │   │   └── Register.jsx
+│   │   │
 │   │   ├── App.jsx
-│   │   ├── Index.jsx
+│   │   ├── App.css
+│   │   ├── index.css
 │   │   └── main.jsx
 │   │
-│   └── 
+│   ├── tailwind.config.js
+│   ├── vite.config.js
+│   └── package.json
 │
 │
+├── screenshots/
+│   ├── login.png
+│   ├── dashboard.png
+│   ├── transactions.png
+│   └── ai-chat.png
+│
+├── .gitignore
+├── package.json
+├── package-lock.json
 └── README.md
 ```
+
 
 
 
