@@ -112,25 +112,88 @@ Track expenses, analyze spending, visualize trends, export reports, and interact
 ```bash
 fintrack-ai/
 │
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   └── assets/
-│   │
-│   └── public/
-│
 ├── backend/
-│   ├── controllers/
-│   ├── routes/
-│   ├── middleware/
-│   ├── services/
 │   ├── config/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── node_modules/
+│   ├── routes/
+│   ├── services/
+│   ├── .env
+│   ├── package-lock.json
+│   ├── package.json
 │   └── server.js
+│ 
+├── frontend/
+│   ├── node_modules/
+│   └── public/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   ├── App.css
+│   │   ├── App.jsx
+│   │   ├── Index.jsx
+│   │   └── main.jsx
+│   │
+│   └── 
+│
 │
 └── README.md
 ```
 
+
+
+
+# 📸 Screenshots
+
+
+## 🔐 Register Page
+
+![Login](./screenshots/register.jpg)
+
+---
+
+## 🔐 Login Page
+
+![Login](./screenshots/login.jpg)
+
+---
+
+## 📊 Dashboard
+
+![Dashboard](./screenshots/dashboard.jpg)
+
+---
+
+# Add Transaction
+
+![Dashboard](./screenshots/add_transaction.jpg)
+
+---
+
+# 📊 Insights
+
+![Dashboard](./screenshots/insights.jpg)
+
+---
+
+
+
+## 💳 Transactions
+
+![Transactions](./screenshots/transaction.jpg)
+
+---
+
+# Edit Transaction
+
+![Dashboard](./screenshots/edit_transaction.jpg)
+
+---
+
+## 🤖 AI Assistant
+
+![AI Assistant](./screenshots/ai_assistant.jpg)
 ---
 
 # ⚙️ Installation Guide
